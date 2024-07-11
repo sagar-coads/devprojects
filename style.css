@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS';
+}
+body{
+    background-color: rgb(255, 239, 166);
+}
+#heading{
+    background-color: rgb(43, 4, 43);
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    margin-top: 30px;
+}
+.choice{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover img{
+    border: 5px solid #58144D;
+}
+.choice img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#score-board{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    margin-top: 50px;
+}
+.score{
+    text-align: center;
+    margin: 0px 30px;
+}
+.message{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.message p{
+    background-color: rgb(18, 18, 18);
+    padding: 6px 10px;
+    width: fit-content;
+    border-radius: 5px;
+}
